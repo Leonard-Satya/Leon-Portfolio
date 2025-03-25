@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Color Variables ===== */
+:root {
+  --navy: #001F3F;
+  --teal: #008080;
+  --beige: #F5F5DC;
+  --skyblue: #87CEEB;
+  --white: #FFFFFF;
+}
+
+/* ===== Body Styling ===== */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--navy);
+  min-height: 100vh;
+  background-image: url('images/background2.JPG');
+  background-color: var(--beige);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ===== Header Styling ===== */
+header {
+  background-color: var(--navy);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 50px;
+}
+
+header .logo {
+  color: var(--white);
+  font-size: 35px;
+  
+  font-family: "Abril Fatface", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+header .banner-text {
+	gap: 30px;
+	
+}
+header .banner-text a {
+	color: var(--white);
+	font-size: 1rem;
+	transition: ease-in-out 0.3s;
+	text-decoration: none;
+	padding-left: 5px;
+	
+}
+
+header .banner-text a:hover {
+	color: var(--skyblue);
+	font-size: 1.25rem;
+}
+	
+
+
+
+/* ===== Main Content Styling ===== */
+.home-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  padding-left: 30px;
+}
+
+
+.image-section img {
+  width: 300px;  
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+  box-shadow: 5px 5px 3px 3px black;
+ 
+}
+
+.intro-section {
+  max-width: 500px;
+}
+
+.intro-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  
+}
+#name {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -25px;
+}
+
+
+.intro-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* ===== Start Button Styling ===== */
+.start-button {
+  text-align: left;
+  margin: 0px 0;
+  padding-top: 100px;
+ 
+}
+
+.start-button a {
+  background-color: var(--navy);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+.start-button a:hover {
+  background-color: var(--teal);
+}
+
+/* =====CONTENTS=======*/
+
+
+.content h1 {
+	font-size: 50px;
+	font-family: "Abril Fatface", serif;
+  font-weight: 200;
+  font-style: normal;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.content-row {
+	display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+	max-width: 100%;
+}
+.content-img {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.row-text {
+	width: 60%;
+	font-size: 20px;
+	text-align: justify;
+}
+
+
+
+#sunflower img {
+	width: 250px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+  
+}
+#contemporary img {
+	width: 250px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+}
+#cafe img {
+	width: 350px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+}
+#iony video {
+	width: 350px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+}
+.row-text2 {
+	width: 40%;
+	font-size: 20px;
+	text-align: justify;
+}
+#debate img {
+	width: 450px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+  
+}
+#entusias img {
+	width: 450px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+}
+#cina img {
+	width: 450px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+}
+.content-row2 {
+	justify-content: space-around;
+  text-align: center; 
+  padding: 50px;
+	max-width: 100%;
+}
+
+.row-text3 {
+	width: 100%;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#stuco img {
+	width: 650px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+  
+}
+#basket img {
+	width: 650px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+}
+#intern img {
+	width: 450px;  
+  border-radius: 10px;
+  border: 3px solid var(--navy);
+}
